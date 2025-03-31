@@ -1,0 +1,24 @@
+[project]
+name = "intuitivecare"
+version = "0.1.0"
+description = "Projeto de teste técnico para vaga de estágio na IntuitiveCare"
+readme = "README.md"
+requires-python = ">=3.8"  # Reduzi para >=3.8 para maior compatibilidade
+authors = [
+    { name = "João Vitor Costa Berriel Braga", email = "jberriel.vitor@gmail.com" },
+]
+
+dependencies = [
+    
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    
+    
+    "tabula-py>=2.8.0",
+    "pandas>=2.0.0",
+
+    
+    
+    "flask>=2.3.2",
+    "pandas>=2.0.0",
+]

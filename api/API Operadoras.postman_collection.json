@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "77f8c5b8-6a18-4763-9515-93b737bf61db",
+		"name": "API Operadoras",
+		"description": "[http://localhost:5000/buscar-operadoras?termo=saude](http://localhost:5000/buscar-operadoras?termo=saude)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29166178"
+	},
+	"item": [
+		{
+			"name": "Bucar Operadoras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar-operadoras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "19541931000125",
+							"description": "cnpj",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
