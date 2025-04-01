@@ -54,6 +54,7 @@ Copy
 2. Converter PDFs em CSV
 3. Iniciar sistema completo (API + Frontend)
 4. Sair
+
 📦 Execução Manual (Backend Python)
 bash
 Copy
@@ -66,6 +67,7 @@ pip install -r requirements.txt
 
 # Execute o servidor Flask
 python api/server.py
+
 🌐 Frontend (Vue.js)
 bash
 Copy
